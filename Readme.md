@@ -5,6 +5,7 @@
 * Hores d’estada a l’empresa: 33 hores
 * Equivalència en crèdits ECTS: 7
 
+
 ## Activitats d'ensenyament aprenentatge (AEA)
 
 | AEA                                           | Hores | Resultats d’aprenentatge |
