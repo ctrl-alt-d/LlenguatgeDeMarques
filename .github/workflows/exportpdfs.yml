@@ -17,7 +17,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
         with:
-          fetch-depth: 0  # Fetch the full commit history to compare changes
+          fetch-depth: 0  # Fetch full commit history to compare changes
 
       # Setup Node.js environment
       - name: Setup Node.js
@@ -39,3 +39,14 @@ jobs:
               echo "Skipping $file as it does not contain 'marp: true'"
             fi
           done
+
+      # Commit and push the generated PDF files
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add *.pdf
+          git commit -m "Add converted PDF files from Marp markdown"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

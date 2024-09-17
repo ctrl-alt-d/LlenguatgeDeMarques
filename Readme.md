@@ -1,5 +1,9 @@
 # Llenguatge de Marques
 
+* Durada: 99 hores
+* Hores a realitzar en el centre educatiu: 66 hores
+* Hores d’estada a l’empresa: 33 hores
+* Equivalència en crèdits ECTS: 7
 
 ## Activitats d'ensenyament aprenentatge (AEA)
 
