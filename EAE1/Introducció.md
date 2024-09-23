@@ -17,16 +17,18 @@ Explorant els llenguatges més utilitzats en web, ciència i tecnologia.
 
 Els llenguatges de marques s'utilitzen per estructurar i presentar informació de manera coherent, estandarditzada i comprensible per humans i màquines.
 
----
+
 ---
 
-# Separació de contingut i presentació
-
-Gràcies als llenguatges de marques (com HTML), podem estructurar el contingut d'una manera clara i reutilitzable, separant-lo de com es veu (CSS) o es presenta a l'usuari.
 
 # Humans: Estructuració del contingut
 
-Un llenguatge de marques permet definir la jerarquia i l'organització del text (títols, paràgrafs, llistes, etc.). Això facilita la lectura i la comprensió tant per a usuaris com per a sistemes automatitzats.
+Un llenguatge de marques permet definir la jerarquia i l'organització del text (títols, paràgrafs, llistes, etc.). Això facilita la lectura i la comprensió tant per a usuaris.
+
+---
+# Separació de contingut i presentació
+
+Gràcies als llenguatges de marques (com HTML), podem estructurar el contingut d'una manera clara i reutilitzable, separant-lo de com es veu (CSS) o es presenta a l'usuari.
 
 ---
 
@@ -44,7 +46,7 @@ Un llenguatge de marques permet intercanvi d'informació d'una manera estructura
 
 # Intercanvi d'informació i accessibilitat
 
-Llenguatges com XML, JSON i YAML permeten l'intercanvi de dades estructurades entre aplicacions diferents. També asseguren que els continguts siguin accessibles en diversos dispositius i per a persones amb discapacitats.
+Llenguatges com XML, JSON i YAML permeten l'intercanvi de dades estructurades entre aplicacions diferents. També asseguren que els continguts siguin accessibles en diversos dispositius.
 
 ---
 
@@ -95,6 +97,26 @@ Aquest és un paràgraf amb **negretes** i *cursives*.
 - Un altre element
 
 [Enllaç a GitHub](https://github.com)
+```
+
+---
+
+# XML (Extensible Markup Language)
+
+**Definició:**
+XML és un llenguatge de marques dissenyat per emmagatzemar i transportar dades. A diferència d'HTML, XML no defineix etiquetes predefinides, sinó que permet als usuaris crear les seves pròpies etiquetes per adaptar-se a la informació que es vol representar. És autodescriptiu i està dissenyat per ser tant llegible per màquines com per humans.
+
+**Aplicabilitat:**
+És utilitzat en la transmissió de dades entre sistemes, especialment en entorns empresarials i governamentals, així com en arxius de configuració, documents estructurats i serveis web (com ara SOAP).
+
+# XML: Exemple
+
+```xml
+<llibre>
+  <títol>El Petit Príncep</títol>
+  <autor>Antoine de Saint-Exupéry</autor>
+  <any>1943</any>
+</llibre>
 ```
 
 ---
