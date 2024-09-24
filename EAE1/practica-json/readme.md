@@ -42,6 +42,8 @@ En JSON, les claus són sempre strings, mentre que els valors poden ser de diver
 ---
 
 **Exemple complet d'un document JSON:**
+
+```json
 {
   "menjars": [
     {
@@ -58,6 +60,7 @@ En JSON, les claus són sempre strings, mentre que els valors poden ser de diver
     }
   ]
 }
+```
 
 En aquest exemple:
 - `menjars` és una clau que conté un array d'objectes.
