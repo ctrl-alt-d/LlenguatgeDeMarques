@@ -28,7 +28,7 @@ XML té una estructura jeràrquica en forma d'arbre, on un element pot contenir 
 **Exemple d'una estructura en arbre:**
 <llibreria>
   <llibre>
-    <títol>El Petit Príncep</títol>
+    <titol>El Petit Príncep</titol>
     <autor>Antoine de Saint-Exupéry</autor>
     <any>1943</any>
   </llibre>
@@ -37,7 +37,7 @@ XML té una estructura jeràrquica en forma d'arbre, on un element pot contenir 
 En aquest exemple:
 - `llibreria` és l'element "pare".
 - `llibre` és un element "fill" de `llibreria`.
-- Els elements `títol`, `autor` i `any` són fills de `llibre`.
+- Els elements `titol`, `autor` i `any` són fills de `llibre`.
 
 ### 4. **Regles sintàctiques**
 - Tots els elements han de tenir una etiqueta d'obertura i una de tancament (`<element></element>`).
@@ -51,12 +51,12 @@ En aquest exemple:
 ```xml
 <llibreria>
   <llibre isbn="3423423432">
-    <títol>El Petit Príncep</títol>
+    <titol>El Petit Príncep</titol>
     <autor>Antoine de Saint-Exupéry</autor>
     <any>1943</any>
   </llibre>
   <llibre isbn="343432888">
-    <títol>1984</títol>
+    <titol>1984</titol>
     <autor>George Orwell</autor>
     <any>1949</any>
   </llibre>
@@ -65,7 +65,7 @@ En aquest exemple:
 
 En aquest exemple:
 - `llibreria` és l'element arrel que conté dos elements `llibre`.
-- Cada element `llibre` conté informació sobre un llibre, incloent el títol, l'autor i l'any de publicació.
+- Cada element `llibre` conté informació sobre un llibre, incloent el titol, l'autor i l'any de publicació.
 
 Amb aquests conceptes, pots estructurar i gestionar informació utilitzant XML de manera organitzada i clara.
 
@@ -87,19 +87,19 @@ Un exemple d'xml és aquest:
 ```xml
 <llibreria>
   <llibre isbn="3423423432" categoria="aventures">
-    <títol>El Petit Príncep</títol>
+    <titol>El Petit Príncep</titol>
     <autor>Antoine de Saint-Exupéry</autor>
     <any>1943</any>
   </llibre>
   <llibre isbn="343432888" categoria="distopies">
-    <títol>1984</títol>
+    <titol>1984</titol>
     <autor>George Orwell</autor>
     <any>1949</any>
   </llibre>
 </llibreria>
 ```
 
-Fes ara tu un fitxer xml que contingui informació sobre manjars:
+Fes ara tu un fitxer xml que contingui informació sobre menjars:
 
 * **Nom** i **categoria** (Exemple: Pit de pollastre, categoria carn)
 * **Kilocalories** per 100 grams (Ex: 100)
