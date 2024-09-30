@@ -167,4 +167,70 @@ Error: Parse error on line 3:
 
 ---
 
+
+## Exercici: JSON a les respostes d'una API
+
+Donat d'alta [openweathermap](https://openweathermap.org/) i utilitza la API https://openweathermap.org/forecast5 per obtenir el temps que farà a Figueres els propers dies.
+
+Hauràs de crear una API Key per poder fer les consultes.
+
+La consulta la pots fer des del navegador, tindrà un format semblant a:
+
+```
+https://api.openweathermap.org/data/2.5/forecast?lat=42.2670&lon=2.9617&appid=f8f8f8f8f8f8f8f8f8f8f8ff8
+```
+
+El resultat serà un xml semblant a:
+
+```xml
+{
+  "cod": "200",
+  "message": 0,
+  "cnt": 40,
+  "list": [
+    {
+      "dt": 1727719200,
+      "main": {
+        "temp": 294.06,
+        "feels_like": 294.3,
+        "temp_min": 288.66,
+        "temp_max": 294.06,
+        "pressure": 1020,
+        "sea_level": 1020,
+        "grnd_level": 1007,
+        "humidity": 80,
+        "temp_kf": 5.4
+      },
+      "weather": [
+        {
+          "id": 800,
+          "main": "Clear",
+          "description": "clear sky",
+          "icon": "01n"
+        }
+      ],
+      "clouds": {
+        "all": 0
+      },
+      "wind": {
+        "speed": 0.49,
+        "deg": 41,
+        "gust": 0.78
+      },
+      "visibility": 10000,
+      "pop": 0,
+      "sys": {
+        "pod": "n"
+      },
+      "dt_txt": "2024-09-30 18:00:00"
+    },
+```
+
+Un cop ho hagis fet, contesta:
+
+* En quin format ens retorna les dades la API de openweathermap.
+* Quina avantatge té aquest format respecte que ens tornés les dades en un fitxer de text pla totes una sota de l'altre?
+
+---
+
 Amb aquesta pràctica, els estudiants aprenen a estructurar la informació en JSON i poden veure com els errors de sintaxi són detectats pels validors.
