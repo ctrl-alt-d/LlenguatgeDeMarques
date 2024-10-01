@@ -1,6 +1,6 @@
-# Programa d'Ensenyament HTML i CSS (10 sessions de 2 hores)
+# HTML i CSS
 
-## Sessió 1: Introducció a HTML
+## Sessió 1: [Introducció a HTML](./html01.md)
 - **Objectius**:
   - Entendre què és HTML i la seva funció.
   - Aprendre l'estructura bàsica d'un document HTML.

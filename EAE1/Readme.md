@@ -6,9 +6,5 @@
 * Exercici 3:[Fitxer json](./practica-json/readme.md)
 * Exercici 4:[Format markdown](./practica-markdown/readme.md)
 * Exercici 5:[Format yaml](./practica-yaml/readme.md)
+* [HTML i  CSS](./html/readme.md)
 
-
-## ToDO
-
-* HTML
-* CSS
