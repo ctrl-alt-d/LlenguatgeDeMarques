@@ -1,6 +1,5 @@
 # Sessió 1: Introducció a HTML
 
-**Duració:** 2 hores  
 **Objectius:**
 1. Entendre què és HTML i la seva funció en el desenvolupament web.
 2. Aprendre l'estructura bàsica d'un document HTML.
