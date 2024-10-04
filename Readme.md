@@ -10,8 +10,8 @@
 
 | AEA                                           | Hores | Resultats d’aprenentatge |
 |-----------------------------------------------|-------|--------------------------|
-| [AEA1 - Llenguatge de Marques](./EAE1)        | 8     | R1 R2                    |
-| [AEA2 - HTML i CSS](./EAE2)                   | 12    | R1 R2                    |
+| [AEA1 - Llenguatge de Marques](./EAE1)        | 8     | R1                    |
+| [AEA2 - HTML i CSS](./EAE2)                   | 12    | R2                    |
 | AEA3 - JavaScript                             | 5     | R3                       |
 | AEA4 - Validació                              | 11    | R4                       |
 | AEA5 - Persistència                           | 7     | R6                       |
