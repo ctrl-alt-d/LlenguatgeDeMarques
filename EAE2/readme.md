@@ -10,7 +10,7 @@
   - Estructura bàsica (`<html>`, `<head>`, `<body>`).
   - Etiquetes bàsiques: `<h1>`, `<p>`, `<a>`.
 
-## Sessió 2: Etiquetes d'HTML
+## Sessió 2: [Etiquetes d'HTML](./html02.md)
 - **Objectius**:
   - Comprendre l'ús d'etiquetes per estructurar continguts.
   - Treballar amb llistes, imatges i enllaços.
