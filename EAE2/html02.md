@@ -61,6 +61,8 @@
 
 ```html
 <a href="#seccio">Vés a la secció</a>
+<!-- blah blah -->
+<h4 id="seccio">Secció 4</h4>
 ```
 
 ---
