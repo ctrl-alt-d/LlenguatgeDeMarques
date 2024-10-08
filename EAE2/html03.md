@@ -59,6 +59,13 @@
 </table>
 ```
 
+
+>Once again, the CSS and visual result are unchanged—specifying such table section groups provides valuable contextual information for assistive technologies, including screen readers and search engines, as well as for styling in the CSS, which will be shown in a later example.
+
+[mnd web docs - Explicitly specifying table section groups](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table#explicitly_specifying_table_section_groups)
+
+LLegiu també l'us de [<caption>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table#table_caption_and_column_summary)
+
 ---
 
 ## 3. Activitat pràctica
