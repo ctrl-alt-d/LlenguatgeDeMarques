@@ -41,7 +41,7 @@
 **Exemple:**
 
 ```html
-<img src="https://www.example.com/imatge.jpg" alt="Descripció de la imatge" />
+<img src="https://www.example.com/imatge.jpg" alt="Descripció de la imatge" >
 ```
 
 ---
