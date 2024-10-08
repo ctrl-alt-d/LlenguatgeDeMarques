@@ -19,15 +19,21 @@
   - Inserció d'imatges (`<img>`).
   - Creació d'enllaços externs i interns (`<a>`).
 
-## Sessió 3: Formes i Taules en HTML
+## Sessió 3: [Taules en HTML](./html03.md)
 - **Objectius**:
   - Aprendre a crear taules i formularis en HTML.
 - **Continguts**:
   - Taules (`<table>`, `<tr>`, `<td>`, `<th>`, `<thead>`, `<tbody>`).
+
+
+## Sessió 4: Forms
+- **Objectius**:
+  - Aprendre a crear taules i formularis en HTML.
+- **Continguts**:
   - Formularis (`<form>`, `<input>`, `<select>`, `<textarea>`).
   - Tipus de camps d'entrada (`text`, `password`, `radio`, `checkbox`).
 
-## Sessió 4: Introducció a CSS
+## Sessió 5: Introducció a CSS
 - **Objectius**:
   - Entendre què és CSS i la seva relació amb HTML.
   - Aplicar estils bàsics a un document HTML.
@@ -36,7 +42,7 @@
   - Sintaxi bàsica de CSS.
   - Com inserir CSS: estils en línia, en capçalera i arxius externs.
 
-## Sessió 5: Propietats CSS fonamentals
+## Sessió 6: Propietats CSS fonamentals
 - **Objectius**:
   - Treballar amb les propietats de text, color i fons.
 - **Continguts**:
@@ -44,7 +50,7 @@
   - Color de text i fons (`color`, `background-color`).
   - Imatges de fons.
 
-## Sessió 6: Model de Caixa de CSS (Box Model)
+## Sessió 7: Model de Caixa de CSS (Box Model)
 - **Objectius**:
   - Entendre com funciona el model de caixa en CSS.
   - Aplicar marges, farcits, i dimensions als elements.
@@ -53,7 +59,7 @@
   - Diferència entre marges, farcits i contorns.
   - Exercicis pràctics per a entendre el model de caixa.
 
-## Sessió 7: Posicionament i Disseny en CSS
+## Sessió 8: Posicionament i Disseny en CSS
 - **Objectius**:
   - Aprendre a posicionar elements de manera relativa i absoluta.
   - Introducció al disseny amb CSS (flexbox, grid).
@@ -62,7 +68,7 @@
   - Introducció a Flexbox: conceptes bàsics (`flex`, `justify-content`, `align-items`).
   - Introducció a CSS Grid.
 
-## Sessió 8: Responsivitat i Media Queries
+## Sessió 9: Responsivitat i Media Queries
 - **Objectius**:
   - Comprendre com fer que una pàgina sigui responsiva.
 - **Continguts**:
@@ -70,7 +76,7 @@
   - Introducció a les Media Queries per adaptar el disseny a diferents dispositius.
   - Exercicis pràctics de responsivitat amb CSS.
 
-## Sessió 9: Transicions i Animacions en CSS
+## Sessió 10: Transicions i Animacions en CSS
 - **Objectius**:
   - Aprendre a utilitzar transicions i animacions en CSS per millorar l'experiència d'usuari.
 - **Continguts**:
@@ -78,7 +84,7 @@
   - Creació d'animacions amb `@keyframes`.
   - Aplicacions pràctiques.
 
-## Sessió 10: Projecte Final
+## Sessió 11: Projecte Final
 - **Objectius**:
   - Aplicar tots els coneixements adquirits en un projecte pràctic.
 - **Continguts**:
