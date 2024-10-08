@@ -21,14 +21,14 @@
 
 ## Sessió 3: [Taules en HTML](./html03.md)
 - **Objectius**:
-  - Aprendre a crear taules i formularis en HTML.
+  - Aprendre a crear taules en HTML.
 - **Continguts**:
   - Taules (`<table>`, `<tr>`, `<td>`, `<th>`, `<thead>`, `<tbody>`).
 
 
 ## Sessió 4: Forms
 - **Objectius**:
-  - Aprendre a crear taules i formularis en HTML.
+  - Aprendre a crear formularis en HTML.
 - **Continguts**:
   - Formularis (`<form>`, `<input>`, `<select>`, `<textarea>`).
   - Tipus de camps d'entrada (`text`, `password`, `radio`, `checkbox`).
