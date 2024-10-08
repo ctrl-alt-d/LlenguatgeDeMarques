@@ -77,7 +77,9 @@
   - Atribut important: `href`, que defineix la URL de l'enllaç.
   - **Exemple:**
 
+```html
     <a href="https://www.example.com">Visita example.com</a>
+```
 
 ---
 
