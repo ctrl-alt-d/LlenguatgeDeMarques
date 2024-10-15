@@ -26,14 +26,14 @@
   - Taules (`<table>`, `<tr>`, `<td>`, `<th>`, `<thead>`, `<tbody>`).
 
 
-## Sessió 4: Forms(./html04.md)
+## Sessió 4: [Forms](./html04.md)
 - **Objectius**:
   - Aprendre a crear formularis en HTML.
 - **Continguts**:
   - Formularis (`<form>`, `<input>`, `<select>`, `<textarea>`).
   - Tipus de camps d'entrada (`text`, `password`, `radio`, `checkbox`).
 
-## Sessió 5: Introducció a CSS
+## Sessió 5: [Introducció a CSS](./html05.md)
 - **Objectius**:
   - Entendre què és CSS i la seva relació amb HTML.
   - Aplicar estils bàsics a un document HTML.
