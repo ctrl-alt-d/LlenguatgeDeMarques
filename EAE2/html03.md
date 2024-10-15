@@ -5,7 +5,7 @@
 
 ---
 
-## 1. Introducció a les Taules (30 min)
+## 1. Introducció a les Taules
 - **Etiqueta de taula (`<table>`):** Utilitzada per a crear una taula.
 - **Files (`<tr>`):** Representen cada fila de la taula.
 - **Cel·les de dades (`<td>`):** Contenen el contingut de cada cel·la de la taula.
@@ -32,7 +32,7 @@
 
 ---
 
-## 2. Estructura avançada de Taules (30 min)
+## 2. Estructura avançada de Taules
 - **Encapçalament de taula (`<thead>`):** Utilitzat per a definir el conjunt de cel·les d'encapçalament.
 - **Corps de taula (`<tbody>`):** Conté el contingut principal de la taula.
 

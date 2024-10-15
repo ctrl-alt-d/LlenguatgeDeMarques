@@ -3,7 +3,7 @@
 **Objectius:**
 1. Entendre què és HTML i la seva funció en el desenvolupament web.
 2. Aprendre l'estructura bàsica d'un document HTML.
-3. Introduir les etiquetes més comunes com `<h1>`, `<p>`, i `<a>`.
+3. Introduir les etiquetes més comunes com `<h1>`, `<p>`,`<span>` i `<a>`.
 
 ---
 
@@ -81,9 +81,23 @@
     <a href="https://www.example.com">Visita example.com</a>
 ```
 
+## 4. Etiqueta `<span>`
+
+La etiqueta `<span>` en HTML és un element en línia (inline) que s'utilitza per agrupar o marcar una part del contingut dins d'un bloc de text sense afectar-ne el flux o la disposició a la pàgina. A diferència d'elements de bloc com `<div>`, que ocupen tot l'ample disponible i comencen en una nova línia, el `<span>` no altera el flux del contingut circumdant i es comporta com qualsevol altre element de text en línia, com ara `<a>` o `<strong>`.
+
+L'objectiu principal de `<span>` és permetre aplicar estils o manipular un fragment de text mitjançant CSS o JavaScript sense canviar-ne el comportament de presentació. És especialment útil per marcar parts específiques d'un text quan només necessites aplicar-hi estils locals o accedir-hi des de JavaScript sense que afecti el format general de la pàgina.
+
+Un exemple bàsic seria:
+
+```html
+<p>Això és un <span class="blau">text en blau</span> dins d'una frase.</p>
+```
+
+__Nota: com que encara no hem estudiat css no veuràs el text de color blau si proves aquest exemple.__
+
 ---
 
-## 4. Entorn de desenvolupament
+## 5. Entorn de desenvolupament
 - **Editors de text**
   - **Recomanats:** **Visual Studio Code**, Sublime Text, Atom.
   - **Altres:** Notepad++, Brackets, Vim.
@@ -92,7 +106,7 @@
   - **Altres:** Safari, Opera.
 - **Extensions útils:** **Live Server**, Web Developer, ColorZilla.
 
-## 5. Activitat pràctica
+## 6. Activitat pràctica
 - Crear una pàgina HTML senzilla que inclogui:
   - Un títol principal (`<h1>`)
   - Un subtítol (`<h2>`)
@@ -101,19 +115,19 @@
 
 ---
 
-## 6. Recapitulació i dubtes
+## 7. Recapitulació i dubtes
 - Revisió dels conceptes apresos.
 - Espai per a preguntes i aclariments.
 
 ---
 
-## 7. Bibliografia
+## 8. Bibliografia
 
 - https://www.w3schools.com/html/
 - https://www.w3schools.com/html/html_intro.asp
 - https://developer.mozilla.org/en-US/docs/Web/HTML/Element
 
-## 8. Humor
+## 9. Humor
 
 - https://www.reddit.com/r/ProgrammerHumor/comments/28wqvi/tim_bernerslee_web_developer/
 

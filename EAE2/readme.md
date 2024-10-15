@@ -8,7 +8,7 @@
 - **Continguts**:
   - Definició i història d'HTML.
   - Estructura bàsica (`<html>`, `<head>`, `<body>`).
-  - Etiquetes bàsiques: `<h1>`, `<p>`, `<a>`.
+  - Etiquetes bàsiques: `<h1>`, `<p>`, `<a>`, `<span>`.
 
 ## Sessió 2: [Etiquetes d'HTML](./html02.md)
 - **Objectius**:
@@ -26,7 +26,7 @@
   - Taules (`<table>`, `<tr>`, `<td>`, `<th>`, `<thead>`, `<tbody>`).
 
 
-## Sessió 4: Forms
+## Sessió 4: Forms(./html04.md)
 - **Objectius**:
   - Aprendre a crear formularis en HTML.
 - **Continguts**:
