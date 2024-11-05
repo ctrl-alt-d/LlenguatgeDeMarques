@@ -59,7 +59,7 @@
   - Diferència entre marges, farcits i contorns.
   - Exercicis pràctics per a entendre el model de caixa.
 
-## Sessió 8: Posicionament i Disseny en CSS
+## Sessió 8: [Posicionament i Disseny en CSS](./html08.md)
 - **Objectius**:
   - Aprendre a posicionar elements de manera relativa i absoluta.
   - Introducció al disseny amb CSS (flexbox, grid).
