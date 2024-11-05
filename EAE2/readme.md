@@ -42,7 +42,7 @@
   - Sintaxi bàsica de CSS.
   - Com inserir CSS: estils en línia, en capçalera i arxius externs.
 
-## Sessió 6: Propietats CSS fonamentals
+## Sessió 6: [Propietats CSS fonamentals](./html06.md)
 - **Objectius**:
   - Treballar amb les propietats de text, color i fons.
 - **Continguts**:
@@ -50,7 +50,7 @@
   - Color de text i fons (`color`, `background-color`).
   - Imatges de fons.
 
-## Sessió 7: Model de Caixa de CSS (Box Model)
+## Sessió 7: [Model de Caixa de CSS (Box Model)](./html07.md)
 - **Objectius**:
   - Entendre com funciona el model de caixa en CSS.
   - Aplicar marges, farcits, i dimensions als elements.
