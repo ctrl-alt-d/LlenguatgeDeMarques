@@ -168,8 +168,18 @@ En CSS, podem definir els colors utilitzant diversos formats. Aquests són els m
   - color: rgba(255, 0, 0, 0.5); (vermell amb 50% de transparència)
 
 ### 5. HSL (Hue, Saturation, Lightness)
-- **Descripció**: Es de
+- **Descripció**: Es defineixen en funció del to (hue), la saturació i la lluminositat. El to (hue) es mesura en graus (de 0 a 360), on cada valor representa un color específic al cercle cromàtic. La saturació i la lluminositat es representen en percentatge (0% és el valor més baix).
+- **Exemples**:
+  - color: hsl(0, 100%, 50%); (vermell pur)
+  - color: hsl(120, 100%, 50%); (verd pur)
+  - color: hsl(240, 100%, 50%); (blau pur)
 
+### 6. HSLA (Hue, Saturation, Lightness, Alpha)
+- **Descripció**: Similar a HSL però inclou un valor alpha que permet ajustar la transparència del color. El valor alpha va de 0 (completament transparent) a 1 (completament opac).
+- **Exemples**:
+  - color: hsla(0, 100%, 50%, 0.5); (vermell amb 50% de transparència)
+  - color: hsla(120, 100%, 50%, 0.3); (verd amb 30% de transparència)
+  - color: hsla(240, 100%, 50%, 0.8); (blau amb 80% de transparència)
 
 ## Annex: Exemple d'HTML i CSS amb les Propietats Fonamentals
 

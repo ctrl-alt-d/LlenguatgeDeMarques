@@ -96,7 +96,7 @@ Més informació a w3schools: [CSS Box Model](https://www.w3schools.com/css/css_
 ## Exercicis per calcular l'amplada total
 
 ### Exercici 1
-Aquest `<div>` tindrà una amplada total de 260px i una altura total de 130px:
+Aquest `<div>` tindrà una amplada total de 210px i una altura total de 110px:
 
 ```css
 div {
@@ -111,17 +111,17 @@ div {
 **Càlcul de l'amplada:**
 ```plaintext
   200px (amplada de l'àrea de contingut)
-+ 30px (padding esquerre + padding dret: 15px + 15px)
-+ 10px (contorn esquerre + contorn dret: 5px + 5px)
-= 260px (amplada total)
++   0px (padding perquè el padding és aplicat a l'interior de l'àrea de contingut)
++  10px (contorn esquerre + contorn dret: 5px + 5px)
+= 210px (amplada total)
 ```
 
 **Càlcul de l'altura:**
 ```plaintext
   100px (altura de l'àrea de contingut)
-+ 30px (padding superior + padding inferior: 15px + 15px)
-+ 10px (contorn superior + contorn inferior: 5px + 5px)
-= 130px (altura total)
++   0px (padding perquè el padding és aplicat a l'interior de l'àrea de contingut)
++  10px (contorn superior + contorn inferior: 5px + 5px)
+= 110px (altura total)
 ```
 
 ---
@@ -133,25 +133,27 @@ Aquest `<div>` tindrà una amplada total de 400px i una altura total de 120px:
 div {
   width: 350px;
   height: 80px;
-  padding: 20px;
+  padding: 30px;
   border: 5px solid blue;
-  margin: 0;
+  margin: 20px;
 }
 ```
 
 **Càlcul de l'amplada:**
 ```plaintext
   350px (amplada de l'àrea de contingut)
-+ 40px (padding esquerre + padding dret: 20px + 20px)
-+ 10px (contorn esquerre + contorn dret: 5px + 5px)
++   0px (padding perquè el padding és aplicat a l'interior de l'àrea de contingut)
++  10px (border esquerre + border dret: 5px + 5px)
++  40px (margin esquerre + padding dret: 20px + 20px)
 = 400px (amplada total)
 ```
 
 **Càlcul de l'altura:**
 ```plaintext
-  80px (altura de l'àrea de contingut)
-+ 40px (padding superior + padding inferior: 20px + 20px)
-+ 10px (contorn superior + contorn inferior: 5px + 5px)
+   80px (altura de l'àrea de contingut)
++   0px (padding perquè el padding és aplicat a l'interior de l'àrea de contingut)
++  10px (contorn superior + contorn inferior: 5px + 5px)
++  40px (margin superior + margin inferior: 20px + 20px)
 = 120px (altura total)
 ```
 
@@ -164,9 +166,9 @@ Aquest `<div>` tindrà una amplada total de 500px i una altura total de 250px:
 div {
   width: 450px;
   height: 200px;
-  padding: 25px;
+  padding: 30px;
   border: 0;
-  margin: 0;
+  margin: 25;
 }
 ```
 
