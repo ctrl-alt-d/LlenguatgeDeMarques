@@ -119,12 +119,15 @@ La propietat `position: sticky` combina característiques de `relative` i `fixed
 ### Exemple de Codi
 
 HTML:
+```html
 <div class="container">
     <div class="sticky-element">Element Sticky</div>
     <p>Alt contingut aquí...</p>
 </div>
+```
 
 CSS:
+```css
 .container {
     height: 1000px;
     background-color: lightgray;
@@ -136,6 +139,7 @@ CSS:
     position: sticky;
     top: 20px;
 }
+```
 
 ### Explicació
 - **.container**: Un contenidor alt per demostrar l'efecte de desplaçament.
@@ -168,11 +172,13 @@ Flexbox és un model de disseny que facilita la creació de layouts flexibles i 
   - Altres propietats: `flex-direction`, `flex-wrap`, `align-content`, etc.
 
 - **Exemple**:
+```html
   <div style="display: flex; justify-content: space-between; align-items: center;">
     <div style="flex: 1;">Element 1</div>
     <div style="flex: 2;">Element 2</div>
     <div style="flex: 1;">Element 3</div>
   </div>
+```
 
 ---
 
@@ -193,12 +199,14 @@ CSS Grid és un sistema de disseny basat en una estructura de graella de files i
     - **Exemple**: gap: 20px; (espai de 20px entre files i columnes).
 
 - **Exemple**:
+```html
   <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
     <div>Element 1</div>
     <div>Element 2</div>
     <div>Element 3</div>
     <div>Element 4</div>
   </div>
+```
 
 ---
 
@@ -217,10 +225,12 @@ Més informacio a w3schools: [CSS Grid Layout](https://www.w3schools.com/css/css
   - **Casos d'ús**: Galeries d'imatges, layouts complexos de pàgina, taules de preus amb diferents seccions, etc.
 
 - **Exemple**:
+```html
   <div style="display: grid; grid-template-columns: 1fr 2fr; gap: 20px;">
     <div>Element 1</div>
     <div>Element 2</div>
   </div>
+```
   - **Explicació**: Aquest exemple crea una graella amb dues columnes, la primera amb una fracció de l'espai i la segona amb dues fraccions.
 
 ---
@@ -234,11 +244,13 @@ Més informacio a w3schools: [CSS Grid Layout](https://www.w3schools.com/css/css
   - **Casos d'ús**: Barres de navegació, grups de botons, alineació de targetes en una fila, elements centrats verticalment dins d'un contenidor.
 
 - **Exemple**:
+```html
   <div style="display: flex; justify-content: space-between;">
     <div>Element 1</div>
     <div>Element 2</div>
     <div>Element 3</div>
   </div>
+```
   - **Explicació**: Aquest exemple distribueix els elements amb espai igual entre ells, utilitzant Flexbox per a l'alineació horitzontal.
 
 ---
