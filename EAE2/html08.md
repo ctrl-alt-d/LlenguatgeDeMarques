@@ -17,7 +17,7 @@ El posicionament en CSS permet col·locar elements en diferents llocs de la pàg
 - **`position: relative`**: L'element es posiciona segons el flux normal del document, però pot ser desplaçat respecte a la seva posició original utilitzant `top`, `right`, `bottom`, o `left`.
   - **Ús**: Quan es vol moure un element sense treure'l del flux de la pàgina.
 
-- **`position: absolute`**: L'element es posiciona respecte al seu contenidor posicionat més proper (no estàtic). Es treu del flux normal, de manera que no afecta els elements circumdants.
+- **`position: absolute`**: L'element es posiciona respecte al seu contenidor posicionat més proper (no estàtic). Es treu del flux normal, de manera que no afecta els elements circumdants. Un element amb `position:absolute`, per tal que funcioni correctament, ha d'estar dins un element amb `position:relative`.
   - **Ús**: Per col·locar elements de manera precisa dins d'un contenidor.
 
 - **`position: fixed`**: L'element es posiciona respecte a la finestra del navegador. Es manté fix en la mateixa posició fins i tot quan es fa desplaçament de la pàgina.
@@ -162,6 +162,12 @@ Més informació a w3schools: [CSS Positioning](https://www.w3schools.com/css/cs
 Observa aquest diseny i intenta replicar-lo utilitzant les propietats de posicionament de CSS (static, relative, absolute, fixed, sticky).
 
 ![Exemple de Diseny](https://i.imgur.com/CA7STuj.png)
+
+### Millores:
+
+1.- Una de les ofertes ha de tenir, centrada a la cantonada de dalt a la dreta, una rodona que digui 'millor oferta' (`position: absolute`)
+2.- A baix a l'esquerra hi ha d'haver un botó d'ajuda. Encara que fem scroll de la pàgina el botó s'ha de mantenir allà mateix (`position: fixed`)
+3.- Opcional: Les ofertes han de quedar 'engaxades' a la part de dalt de la pàgina quan fem scrol (`position: sticky`)
 
 Per [centrar el text](https://stackoverflow.com/a/78651219/842935) dins el div pots fer servir:
 
