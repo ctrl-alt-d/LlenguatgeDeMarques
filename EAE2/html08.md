@@ -157,6 +157,23 @@ Més informació a w3schools: [CSS Positioning](https://www.w3schools.com/css/cs
 
 ---
 
+## Exercici
+
+Observa aquest diseny i intenta replicar-lo utilitzant les propietats de posicionament de CSS (static, relative, absolute, fixed, sticky).
+
+![Exemple de Diseny](https://i.imgur.com/CA7STuj.png)
+
+Per [centrar el text](https://stackoverflow.com/a/78651219/842935) dins el div pots fer servir:
+
+```css
+.box {
+  align-content: center; /* vertical */
+  text-align: center; /* horitzontal */
+}
+```
+
+---
+
 #### 2. Introducció a Flexbox
 Flexbox és un model de disseny que facilita la creació de layouts flexibles i dinàmics. Permet alinear i distribuir elements de manera eficient dins d'un contenidor.
 
