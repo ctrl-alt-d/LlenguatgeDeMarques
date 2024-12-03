@@ -143,7 +143,7 @@ CSS:
 
 ### Explicació
 - **.container**: Un contenidor alt per demostrar l'efecte de desplaçament.
-- **.sticky-element**: Un element que es manté fixat a 20 píxels de la part superior de la finestra quan es fa desplaçament. Quan l'usuari es desplaça cap avall i arriba a aquest punt, l'element es fixa a la posició definida fins que el contenidor ja no sigui visible.
+- **.sticky-element**: Un element que es manté fixat a 20 píxels de la part superior de la finestra quan es fa desplaçament. Quan l'usuari es desplaça cap avall i arriba a aquest punt, l'element es fixa a la posició definida fins que el contenidor ja no sigui visible. **Per tal que quedi enganxat, és important dir-li respecte que s'ha d'engancar, en aquest exemple, respecte el `top: 20px` , és a dir, quedarà a 20px de la part superior de la finestra.**
 
 ### Ús Comú
 - **Barres de navegació**: Mantenir menús visibles a la part superior de la pàgina quan es desplaça.
