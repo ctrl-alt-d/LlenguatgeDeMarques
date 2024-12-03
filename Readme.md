@@ -18,6 +18,18 @@
 | AEA6 - Conversió                              | 11    | R5                       |
 | AEA7 - Sistemes de gestió empresarials        | 11    | R7                       |
 
+```math
+QM = 0.7 \cdot (0.1 \cdot RA_1 + 0.2 \cdot RA_2 + 0.1 \cdot RA_3 + 0.2 \cdot RA_4 + 0.1 \cdot RA_5 + 0.2 \cdot RA_6 + 0.1 \cdot RA_7) + 0.2 \cdot CC + 0.1 \cdot EE
+```
+
+### Temporització curs 2024-25
+
+| Darrera classe | AEA1               | AEA2               | AEA3               | AEA4               | AEA5               | AEA6               | AEA7           |
+|----------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|----------------|
+|                | 8.10.2024 16:45h  | 19.11.2024 16:45h  | 10.12.2024 15:50h  | 4.2.2025 16:45h    | 11.3.2025 15:50h   | 22.4.2025 16:45h   | Final de curs  |
+
+
+
 ## Resultats d'aprenentatge
 
 1. **RA1.** Reconeix les característiques de llenguatges de marques analitzant i interpretant fragments de codi.
