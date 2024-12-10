@@ -111,17 +111,17 @@ div {
 **Càlcul de l'amplada:**
 ```plaintext
   200px (amplada de l'àrea de contingut)
-+   0px (padding perquè el padding és aplicat a l'interior de l'àrea de contingut)
++  30px (padding esquerre + padding dret: 15px + 15px)
 +  10px (contorn esquerre + contorn dret: 5px + 5px)
-= 210px (amplada total)
+= 240px (amplada total)
 ```
 
 **Càlcul de l'altura:**
 ```plaintext
   100px (altura de l'àrea de contingut)
-+   0px (padding perquè el padding és aplicat a l'interior de l'àrea de contingut)
++  30px (padding superior + padding inferior: 15px + 15px)
 +  10px (contorn superior + contorn inferior: 5px + 5px)
-= 110px (altura total)
+= 140px (altura total)
 ```
 
 ---
@@ -142,16 +142,16 @@ div {
 **Càlcul de l'amplada:**
 ```plaintext
   350px (amplada de l'àrea de contingut)
-+   0px (padding perquè el padding és aplicat a l'interior de l'àrea de contingut)
++  60px (padding esquerre + padding dret: 30px + 30px)
 +  10px (border esquerre + border dret: 5px + 5px)
 +  40px (margin esquerre + padding dret: 20px + 20px)
-= 400px (amplada total)
+= 460px (amplada total)
 ```
 
 **Càlcul de l'altura:**
 ```plaintext
    80px (altura de l'àrea de contingut)
-+   0px (padding perquè el padding és aplicat a l'interior de l'àrea de contingut)
++  60px (padding superior + padding inferior: 30px + 30px)
 +  10px (contorn superior + contorn inferior: 5px + 5px)
 +  40px (margin superior + margin inferior: 20px + 20px)
 = 120px (altura total)
