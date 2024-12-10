@@ -13,4 +13,5 @@
 9. [Sessió 9: Debugging i Bones Pràctiques](./contingut/s09.md)
 
 
-T'agrada el JS? Considera unir-te a la [GironaJS, La Comunitat JavaScript de Girona](https://gironajs.com/ca)!
+> [!TIP]
+> T'agrada el JS? Considera unir-te a la [GironaJS, La Comunitat JavaScript de Girona](https://gironajs.com/ca)!
