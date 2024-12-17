@@ -13,8 +13,8 @@
 | [AEA1 - Llenguatge de Marques](./AEA1)        | 8     | R1                    |
 | [AEA2 - HTML i CSS](./AEA2)                   | 12    | R2                    |
 | [AEA3 - JavaScript](./AEA3)                   | 5     | R3                       |
-| AEA4 - Validació                              | 11    | R4                       |
-| AEA5 - Persistència                           | 7     | R6                       |
+| AEA4 - Persistència                           | 7     | R6                       |
+| AEA5 - Validació                              | 11    | R4                       |
 | AEA6 - Conversió                              | 11    | R5                       |
 | AEA7 - Sistemes de gestió empresarials        | 11    | R7                       |
 
