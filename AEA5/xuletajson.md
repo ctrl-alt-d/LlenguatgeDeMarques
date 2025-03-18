@@ -1,4 +1,3 @@
-```markdown
 # Xuleta de Sintaxi de Validació JSON Schema
 
 
@@ -6,7 +5,7 @@
 
 ## Exemple d'un JSON que compleix amb un JSON Schema
 
-```
+```json
 {
   "Persones": [
     {
@@ -23,7 +22,7 @@
 
 ## Exemple de fitxer JSON Schema corresponent
 
-```
+```json
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "type": "object",
@@ -47,12 +46,12 @@
 ## Elements Bàsics en JSON Schema
 
 ### Definir una propietat simple
-```
+```json
 "Nom": { "type": "string" }
 ```
 
 ### Definir un objecte
-```
+```json
 "Persona": {
   "type": "object",
   "properties": {
@@ -73,7 +72,7 @@
 - `null` → Valor nul
 
 ### Definir atributs en objectes
-```
+```json
 "Persona": {
   "type": "object",
   "properties": {
@@ -85,7 +84,7 @@
 ```
 
 ### Restriccions de valors
-```
+```json
 "Edat": {
   "type": "integer",
   "minimum": 0,
@@ -94,7 +93,7 @@
 ```
 
 ### Enumeracions (valors predefinits)
-```
+```json
 "Color": {
   "type": "string",
   "enum": ["Vermell", "Verd", "Blau"]
@@ -105,7 +104,7 @@
 - Opcional (`required` no especificat)
 - Repetit com a array
 
-```
+```json
 "Persones": {
   "type": "array",
   "items": {
