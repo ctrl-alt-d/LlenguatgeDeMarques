@@ -40,11 +40,13 @@ Nota, les llibreries dotnet encara no suporten validació d'esquema, s'ha fet se
 
 
 ```c#
+namespace provaJSON;
 using System;
 using System.IO;
-using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
-using Newtonsoft.Json.Schema;
+using System.Text.Json;
+using Json.Schema;
+
+
 
 class Program
 {
@@ -65,7 +67,6 @@ class Program
 
     public static bool ValidateJson(string jsonFilePath, string schemaFilePath)
     {
-        // Variable per indicar si el JSON és vàlid o no
         bool isValid = true;
 
         try
@@ -74,20 +75,20 @@ class Program
             string jsonText = File.ReadAllText(jsonFilePath);
             string schemaText = File.ReadAllText(schemaFilePath);
 
-            // Converteix l'esquema JSON a un objecte JSchema
-            JSchema schema = JSchema.Parse(schemaText);
+            // Parseja l'esquema
+            JsonSchema schema = JsonSchema.FromText(schemaText);
 
-            // Converteix el JSON a un objecte JObject
-            JObject jsonObject = JObject.Parse(jsonText);
-
-            // Llista per a emmagatzemar errors de validació
-            IList<string> errors = new List<string>();
+            // Parseja el JSON
+            JsonDocument jsonDocument = JsonDocument.Parse(jsonText);
 
             // Valida el JSON contra l'esquema
-            if (!jsonObject.IsValid(schema, out errors))
+            var result = schema.Evaluate(jsonDocument.RootElement);
+
+            if (!result.IsValid)
             {
                 isValid = false;
                 Console.WriteLine("[ERRORS DE VALIDACIÓ]");
+                
             }
         }
         catch (Exception ex)
@@ -99,4 +100,5 @@ class Program
         return isValid;
     }
 }
+
 ```
