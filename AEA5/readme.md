@@ -3,9 +3,10 @@
 ## XML
 
 * [Xuleta](./xuletaxml.md)
-* [Codi c#](./dotnet.md)
+* [Codi c#](./dotnet_xml.md)
 
 ## JSON
 
-* Xuleta
-* Codi c#
+* [Xuleta](./xuletajson.md)
+* [Codi c#](./dotnet_json.md)
+
