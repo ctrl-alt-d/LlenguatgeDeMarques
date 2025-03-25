@@ -10,6 +10,10 @@
 * [Xuleta](./xuletajson.md)
 * [Codi c#](./dotnet_json.md)
 
+## Repte
+
+* [Repte](./repte.md)
+
 # Avaluació
 
 * [Avaluació](./avaluació.md)
