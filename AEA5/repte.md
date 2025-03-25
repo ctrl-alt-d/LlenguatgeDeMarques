@@ -10,6 +10,8 @@
 * La API és a l'ordinador del professor, la publicarà aquí:
 
 
+ https://4632-85-192-74-3.ngrok-free.app/swagger/index.html
+
 ## Informació addicional
 
 * A la pàgina se li ha eliminat el `app.UseSwaggerUI();`. Però, amb OpenApi, encara pots saber quins endpoints hi ha.
