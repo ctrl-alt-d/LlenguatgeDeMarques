@@ -23,3 +23,18 @@
 ```bash
 ngrok http 5040
 ```
+
+## Posershell per fer la crida a la APO
+
+```powershell
+$headers = @{
+    "accept" = "application/json"
+    "Content-Type" = "application/json"
+}
+
+$body = @{
+    valor = 0
+} | ConvertTo-Json
+
+Invoke-RestMethod -Uri "http://localhost:5119/weatherforecast" -Method Post -Headers $headers -Body $body
+```
