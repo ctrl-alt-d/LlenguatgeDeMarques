@@ -10,7 +10,7 @@
 * La API és a l'ordinador del professor, la publicarà aquí:
 
 
- https://4632-85-192-74-3.ngrok-free.app/swagger/index.html
+https://f5e3-85-192-74-3.ngrok-free.app
 
 ## Informació addicional
 
@@ -36,5 +36,5 @@ $body = @{
     valor = 0
 } | ConvertTo-Json
 
-Invoke-RestMethod -Uri "http://localhost:5119/weatherforecast" -Method Post -Headers $headers -Body $body
+Invoke-RestMethod -Uri "https://f5e3-85-192-74-3.ngrok-free.app/????" -Method Post -Headers $headers -Body $body
 ```
