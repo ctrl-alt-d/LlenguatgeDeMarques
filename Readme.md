@@ -16,7 +16,7 @@
 | [AEA4 - Persistència](./AEA4)                 | 7     | R6                       |
 | [AEA5 - Validació](./AEA5)                    | 11    | R4                       |
 | [AEA6 - Conversió](./AEA6)                    | 11    | R5                       |
-| AEA7 - Sistemes de gestió empresarials        | 11    | R7                       |
+| [AEA7 - Sistemes de gestió empresarials](./AEA7/)| 11    | R7                       |
 
 ```math
 QM = 0.7 \cdot (0.1 \cdot RA_1 + 0.2 \cdot RA_2 + 0.1 \cdot RA_3 + 0.2 \cdot RA_4 + 0.1 \cdot RA_5 + 0.2 \cdot RA_6 + 0.1 \cdot RA_7) + 0.2 \cdot CC + 0.1 \cdot EE
