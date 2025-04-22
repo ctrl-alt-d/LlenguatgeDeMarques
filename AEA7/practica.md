@@ -68,7 +68,7 @@ docker start -a odoo
 El treball es lliurarà en format PDF al Moodle. El document ha d’incloure:
 
 - **Portada:** amb els noms complets de tots els integrants del grup.
-- **Instal·lació d’Odoo:** captures o vídeos on es vegi el procés d’instal·lació.
+- **Instal·lació d’Odoo:** captures o vídeos on es vegi el procés d’instal·lació. Reflexió sobre els avantatges de distribuir programari mitjançant Docker.
 - **Ús dels mòduls:** demostració del funcionament dels mòduls triats, amb explicacions clares.
 - **[Opcional] Presentació oral:** exposició a classe de com s’utilitzen els mòduls.
 
