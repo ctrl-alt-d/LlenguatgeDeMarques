@@ -1,5 +1,8 @@
 # Sistemes de gestió empresarials
 
+* [Teoria](./teoria.md)
+* [Pràctica](./practica.md)
+
 ## Resultats d'aprenentatge i Continguts
 
 ### Resultats d'aprenentatge
