@@ -22,6 +22,9 @@ Aquesta pràctica té com a finalitat conèixer de primera mà el funcionament d
 docker run -d -e POSTGRES_USER=odoo -e POSTGRES_PASSWORD=odoo -e POSTGRES_DB=postgres --name db postgres:15
 ```
 
+Nota: Si has fet el mòdul professional de base de dades, potser tindràs curiositat per veure les taules que crea **Odoo**. Per poder-te connectar amb **DBeaver** (o un altre client de base de dades) a aquest **PostgreSQL**, cal que publiquis el **port 5432** del contenidor, cosa que pots fer afegint el paràmetre `-p 5432:5432` com es mostra a la comanda anterior. Això et permetrà accedir a la base de dades des del teu ordinador com si fos un servidor local.
+
+
 2. Engegar un contenidor per a Odoo:
 
 ```bash
